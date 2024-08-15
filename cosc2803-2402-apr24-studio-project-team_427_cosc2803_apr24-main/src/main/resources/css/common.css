@@ -1,0 +1,243 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial;
+   padding: 10px;
+   background: #cfeefb;
+}
+
+/* Header (div) formatting */
+.header {
+   padding: 10px;
+   text-align: center;
+   background-color: #e1f2df;
+   color: #000000;
+}
+
+.header h1 {
+   font-size: 30px;
+}
+
+
+/* Make the logo have a rounded edge */
+img.top-image {
+   vertical-align: middle;
+}
+
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #18ab35b9;
+   padding: 0 20px; /* Adjust based on the logo width */
+}
+ 
+ /* Style the topnav links */
+ .topnav a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* Change color on hover */
+ .topnav a:hover {
+   background-color: #d8d7d7;
+   color: rgb(21, 104, 9);
+ }
+ 
+ /* Style the content */
+ .content {
+   background-color: #e1f2df;
+   padding: 10px;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ /* Style the footer */
+ .footer {
+   background-color: #18ab35b9;
+   padding: 10px;
+ }
+
+ /* Flexbox styling for the topics section */
+ .topics {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 10px 0;
+}
+
+.topic {
+   background: #fff;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: calc(20% - 10px);
+   box-sizing: border-box;
+   text-align: center;
+   margin: 5px;
+}
+
+.topic a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+}
+
+.topic a:hover {
+   background-color: #ddd;
+   color: rgb(9, 239, 97);
+ }
+
+.topic p {
+   margin: 10px 0 0;
+}
+
+.topic-mission {
+   background: #fff;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: calc(25% - 10px);
+   box-sizing: border-box;
+   text-align: center;
+   margin: 5px;
+}
+
+.topic-mission a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+}
+
+.topic-mission a:hover {
+   background-color: #ddd;
+   color: rgb(20, 128, 34);
+ }
+
+.topic-mission p {
+   margin: 10px 0 0;
+}
+
+/* Style the filter section */
+.filter-section {
+   width: 30%;
+   padding: 20px;
+   background-color: #75d891;
+   border-right: 1px solid #ccc;
+}
+
+.filter-section h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.filter-section label {
+   display: block;
+   margin: 10px 0 5px;
+}
+
+
+.checkbox-filter-section input,
+.checkbox-filter-section label {
+   display: inline-flex;
+   flex-direction: row-reverse;
+   text-align: left;
+   font-size: default;
+   padding-left: 10px;
+   margin-right: 10px;
+}
+
+.filter-section select,
+.filter-section input[type='checkbox'] {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+/* Style the data table section */
+.table-wrapper {
+   height: 690px;
+   overflow-y: scroll;
+}
+.table-section {
+   width: 70%;
+   padding: 20px;
+}
+
+.table-section h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.table-section table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.table-section table, .table-section th, .table-section td {
+   border: 1px solid #ccc;
+   padding: 10px;
+   text-align: left;
+}
+
+.table-section th {
+   background-color: #cfeefb;
+}
+
+.data-container {
+   display: flex;
+   flex-direction: row; /* Arrange elements side-by-side */
+ }
+
+ 
+ .filter-section {
+   /* Adjust width as needed based on your design */
+   width: 30%;
+   padding: 20px;
+   background-color: #c3e5c0;
+   border-right: 1px solid #ccc;
+ }
+ 
+ .table-section {
+   /* Adjust width as needed based on your design */
+   width: 70%;
+   padding: 20px;
+ }
+ 
+ .persona-section {
+   width: 33%;
+   display: inline-block;
+   background-color: #FDFDFD;
+   text-align: center;
+   border-radius: 5px;
+ }
+
+ .persona-section img {
+   max-height: 30%;
+   max-width: 30%;
+ }
+
+ .student-section {
+   width: 45%;
+   background-color: #FDFDFD;
+   text-align: center;
+   border-radius: 5px;
+   margin-top: 5px;
+   display: inline-block;
+ }
+
+.student-section p {
+   display: inline;
+   font-size: 25px;
+}
